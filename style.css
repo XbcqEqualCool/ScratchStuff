@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  color: white;
+  font-family: "Ubuntu";
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 10px;
+}
+
+.logo {
+  height: 42px;
+  width: 90px;
+  margin-top: 28px;
+  margin-left: 28px;
+}
+
+.navBar {
+  background-image: linear-gradient(to right, #2c2b39, #1d223e);
+  height: 100px; /*90px*/
+  border-radius: 10px;
+  display: flex;
+  box-shadow: #1b1b1b;
+  filter: drop-shadow(0 0 1rem black);
+}
+
+.navBarPages {
+  gap: 100px;
+  margin-top: 12px;
+  margin-left: 32px;
+  float: left;
+}
+
+.container {
+  margin-top: 10px;
+  background-image: linear-gradient(to left, #2c2b39, #1d223e);
+  height: 75vh;
+  border-radius: 10px;
+  display: block;
+  filter: drop-shadow(0 0 1rem black);
+}
+
+.containerContent {
+  gap: 100px;
+  margin-top: 12px;
+  margin-left: 32px;
+  float: left;
+}
+
+button {
+  width: 125px;
+}
